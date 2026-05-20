@@ -12,6 +12,16 @@ Pipeline end-to-end para previsão de churn em operadora de telecomunicações. 
 
 Implementar um pipeline reprodutível para prever churn de clientes, acompanhar experimentos, comparar modelos e expor um endpoint para inferência em produção.
 
+## Equipe e Responsabilidades
+
+| Membro | Responsabilidade | Etapa |
+| --- | --- | --- |
+| Tathiana Araujo Rodnarchuki |  |  |
+| Giselly Kathellyn Domingos da Silva |  |  |
+| Pedro Henrique Ostroski | Etapa 1 | Etapa 1 |
+| Alisson Henrique Lepesqueur Borges Fabiano | Etapa 3 | Etapa 3 |
+| Rafael Fernando Gimenes | Etapa 2 | Etapa 2 |
+
 ## Estrutura do repositório
 
 - `data/` — dados brutos e processados
