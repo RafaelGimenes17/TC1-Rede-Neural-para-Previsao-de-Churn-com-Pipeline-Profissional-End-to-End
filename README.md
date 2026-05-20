@@ -1,8 +1,6 @@
 # TC1 — Rede Neural para Previsão de Churn (End-to-End)
 
-Descrição do repositório e do Tech Challenge
-
-> INSERIR AQUI O DESCRITIVO DO TECH CHALLENGE (anexo). Por favor, cole ou anexe o enunciado para que eu incorpore o texto completo nesta seção.
+Este repositório apresenta a solução para o Tech Challenge de previsão de churn em uma operadora de telecomunicações. O projeto entrega um pipeline profissional end-to-end que cobre aquisição e processamento de dados, engenharia de features, treinamento de modelos de machine learning com PyTorch e Scikit-Learn, rastreamento de experimentos com MLflow e implantação de um endpoint de inferência com FastAPI.
 
 ## Resumo
 
@@ -24,7 +22,7 @@ Implementar um pipeline reprodutível para prever churn de clientes, acompanhar 
 
 ## Estrutura do repositório
 
-- `data/` — dados brutos e processados
+- `data/` — dados brutos e processados  
 - `notebooks/` — exploração e experimentos interativos
 - `src/` — código fonte (subpastas: `data`, `models`, `api`, `evaluation`)
 - `models/` — artefatos e checkpoints
