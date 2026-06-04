@@ -1,0 +1,181 @@
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# =============================================================================
+# Jupyter Notebooks
+# =============================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# =============================================================================
+# Dados — nunca versionar datasets brutos ou processados
+# =============================================================================
+data/raw/*
+data/processed/*
+data/interim/*
+data/external/*
+
+# Manter a estrutura de pastas
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/interim/.gitkeep
+!data/external/.gitkeep
+
+# Formatos de dados comuns
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.arrow
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.db
+*.sqlite
+*.sqlite3
+*.json.gz
+*.csv.gz
+
+# =============================================================================
+# Modelos e artefatos de ML
+# =============================================================================
+models/artifacts/*
+!models/artifacts/.gitkeep
+
+# Formatos de modelos
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.pb
+*.tflite
+*.joblib
+*.bin
+
+# =============================================================================
+# MLflow
+# =============================================================================
+mlruns/
+mlartifacts/
+.mlflow/
+
+# =============================================================================
+# Cobertura de testes e relatórios
+# =============================================================================
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/
+.cache/
+nosetests.xml
+test-results/
+junit*.xml
+
+# =============================================================================
+# Linting e type checking
+# =============================================================================
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# =============================================================================
+# IDEs e editores
+# =============================================================================
+# VSCode
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains (PyCharm, DataSpell)
+.idea/
+*.iml
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# =============================================================================
+# Sistema operacional
+# =============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# =============================================================================
+# Logs e temporários
+# =============================================================================
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# =============================================================================
+# Docker
+# =============================================================================
+.docker/
+
+# =============================================================================
+# Credenciais e segredos (nunca versionar)
+# =============================================================================
+*.pem
+*.key
+*.cert
+*.crt
+secrets/
+credentials/
+kaggle.json
+service_account*.json
